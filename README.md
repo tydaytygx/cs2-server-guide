@@ -114,7 +114,7 @@ volumes:
 ```shell
 docker compose up -d
 ```
-## 更改了docker-compose.yml，如何生效？
+## 更改了docker-compose.yml，如何生效？（将启动新的容器替换旧容器，请勿在对战中使用）
 ```docker compose up -d```
 
 ## 安装遇到问题，需要强制验证时，修改docker-compose.yml
