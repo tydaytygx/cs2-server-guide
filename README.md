@@ -65,7 +65,7 @@ sudo sh ./get-docker.sh --dry-run
 docker pull joedwards32/cs2
 ```
 
-## 拉取镜像的同时打开你的浏览器，申请一个gameserver token
+## 拉取镜像的同时打开你的浏览器，申请一个gameserver token, CS2为730
 浏览器访问steam社区服务器管理页面
 
 [https://steamcommunity.com/dev/managegameservers](https://steamcommunity.com/dev/managegameservers)
