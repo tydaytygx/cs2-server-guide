@@ -60,7 +60,7 @@ sudo sh ./get-docker.sh --dry-run
 
 
 
-## 安装好docker及其组件了！拉取镜像以及启动容器
+## 安装好docker及其组件了！拉取镜像以及启动容器，如果permission denied请在命令前加sudo
 ```shell
 docker pull joedwards32/cs2
 ```
