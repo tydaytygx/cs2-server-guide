@@ -9,7 +9,7 @@ CounterStrikeSharp
 
 **教程将引用以下仓库的镜像，如果需要进一步了解镜像架构请移步下方**
 
-[源仓库https://github.com/joedwards32/CS2](https://github.com/joedwards32/CS2)
+[https://github.com/joedwards32/CS2](https://github.com/joedwards32/CS2)
 
 
 # 准备工作
@@ -175,6 +175,33 @@ unzip -d
 - CS2_GAMETYPE=0 
 - CS2_GAMEMODE=1 
 ```
+
+
+定时重启
+
+确实是有开久了变卡的情况，
+
+定时重启可以使用
+crontab
+
+例如crontab -e
+
+0 4 * * * docker restart cs2-dedicated
+
+每天凌晨四点就会重启了
+自定义配置
+
+自定义配置的路径
+cs2-dedicated/game/csgo/cfg
+
+以竞技模式为例
+
+gamemode_competitive.cfg
+
+修改服务端全局配置
+
+gamemode_server.txt
+
 
 ## 设置你的初始地图/地图组，使用创意工坊地图/地图组
 待更新
