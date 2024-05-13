@@ -123,9 +123,15 @@ STEAMAPPVALIDAT=1
 
 ## 查看容器的日志，连接到容器 
 > ### 查看容器日志（可以依据日志判断下载是否成功，国内连接到steam网络可能有些困难，会经历多次重试）
-根据docker-compose.yml中 container_name可以得知容器名为cs2-dedicated，可以使用tab进行补全
-docker logs cs2-dedicated
-docker logs cs2-dedicated -f
+根据```docker-compose.yml```中 ```container_name```可以得知容器名为```cs2-dedicated```，可以使用tab进行补全
+
+查看日志
+
+```docker logs cs2-dedicated```
+
+-f/--follow持续观察日志
+
+```docker logs cs2-dedicated -f```
 
 服务端会开始自动下载，请保证目标目录有40G的空间，并耐心等待
 > ### 连接到容器中/服务端控制台
