@@ -177,30 +177,31 @@ unzip -d
 ```
 
 
-定时重启
+# 定时重启
 
 确实是有开久了变卡的情况，
 
 定时重启可以使用
-crontab
+```crontab```
 
 例如crontab -e
-
+```conf
 0 4 * * * docker restart cs2-dedicated
-
+```
 每天凌晨四点就会重启了
-自定义配置
 
-自定义配置的路径
-cs2-dedicated/game/csgo/cfg
+# 自定义配置
 
-以竞技模式为例
+## 自定义配置的路径
+```cs2-dedicated/game/csgo/cfg```
 
-gamemode_competitive.cfg
+## 以竞技模式为例
 
-修改服务端全局配置
+```gamemode_competitive.cfg```
 
-gamemode_server.txt
+## 修改服务端全局配置
+
+```gamemode_server.txt```
 
 
 ## 设置你的初始地图/地图组，使用创意工坊地图/地图组
