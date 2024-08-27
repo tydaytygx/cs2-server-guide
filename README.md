@@ -211,5 +211,14 @@ unzip -d
 
 
 ## 设置你的初始地图/地图组，使用创意工坊地图/地图组
-待更新
+
+如何获取地图/地图组id，请在steam设置--界面--勾选显示网页URL
+
+docker attach 容器id到控制台
+### 使用创意工坊地图
+host_workshop_map mapid
+### 使用创意工坊地图组
+host_workshop_collection collectionid
+
+
 ## 
