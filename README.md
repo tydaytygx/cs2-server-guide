@@ -106,6 +106,15 @@ volumes:
 volumes:
       - ./cs2:/home/steam/cs2-dedicated/ 
 ```
+如果你使用非root用户
+
+首次使用时建议先
+
+```mkdir -p cs2```
+
+创建好该文件夹
+
+避免docker compose up 时直接创建了root权限的cs2的文件夹造成权限问题
 
 
 
