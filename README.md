@@ -104,8 +104,15 @@ volumes:
 改为
 ```yml
 volumes:
-      - ./cs2:/home/steam/cs2-dedicated/ 
+      - ./cs2:/home/steam/cs2-dedicated/
 ```
+
+删除掉最下方的卷
+```
+volumes:
+  cs2:
+```
+
 如果你使用非root用户
 
 首次使用时建议先
