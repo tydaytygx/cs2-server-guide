@@ -107,7 +107,7 @@ volumes:
       - ./cs2:/home/steam/cs2-dedicated/
 ```
 
-删除掉最下方的卷
+删除掉最下方的卷（删除这两行）
 ```
 volumes:
   cs2:
